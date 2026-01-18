@@ -16,8 +16,8 @@ export const ConfigurationPanel = () => {
   return (
     <div className="bg-white/80 backdrop-blur-md p-6 rounded-3xl shadow-xl border border-white/20 h-full flex flex-col">
       <div className="mb-6">
-        <h2 className="text-2xl font-bold text-slate-800">Keyboard Configurator</h2>
-        <p className="text-slate-500 text-sm">Build your perfect typing machine</p>
+        <h2 className="text-2xl font-bold text-slate-800">Configuración del teclado</h2>
+        <p className="text-slate-500 text-sm">Crea tu maquina de escribir perfecta</p>
       </div>
 
       <div className="flex-1 overflow-y-auto pr-2 space-y-8 custom-scrollbar">
@@ -83,13 +83,13 @@ export const ConfigurationPanel = () => {
       <div className="mt-6 pt-6 border-t border-slate-200">
         <div className="flex justify-between items-end">
           <div>
-            <span className="text-sm text-slate-500 font-medium">Total Estimated</span>
+            <span className="text-sm text-slate-500 font-medium">Total Estimado</span>
             <div className="text-3xl font-black text-slate-900 tracking-tight">
               {formatPrice(totalPrice)}
             </div>
           </div>
           <button className="bg-black text-white px-8 py-3 rounded-xl font-bold hover:bg-slate-800 transition-transform active:scale-95 shadow-lg shadow-black/20">
-            Buy Now
+            Comprar ahora
           </button>
         </div>
       </div>
